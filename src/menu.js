@@ -4,7 +4,7 @@ import burgers from './burger';
 import burgerPhoto from './burger-photo.png';
 
 let page = create('section',"",'page');
-let menu = create('div','','menu');
+let menu = create('div','','container');
 let heroHalf = create('div','','hero-half');
 let title = create('h1',"Our menu");
 

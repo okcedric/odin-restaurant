@@ -34,6 +34,11 @@ ul{
     justify-content: center;
 }
 
+p{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
 .navlink{
     align-items: center;
     display: flex;
@@ -42,6 +47,7 @@ ul{
     justify-content: center;
     height: 100%;
     padding: 1rem;
+    cursor: pointer;
 
 }
 
@@ -107,6 +113,16 @@ button.main:hover {
     color: black;
 }
 
+button.secondary {
+    background-color: #FEE72C;
+    color: black;
+}
+
+button.secondary:hover {
+    background-color: white;
+    color: black;
+}
+
 .logo{
     height: 3.330rem;
 
@@ -123,14 +139,17 @@ header {
 }
 
 
-.page{
+.page, main {
     display: flex;
     flex-direction: column;
-    background-color: black;
     flex :1
 }
 
-.menu{
+.page {
+    background-color: black;
+}
+
+.container{
     display: flex;
     justify-content: space-around;
 }
@@ -140,6 +159,9 @@ header {
     padding: 3rem;
     width: 33vw;
 }
+.card img{
+    margin-bottom: 1rem;
+}
 .price{
     font-size: 1.618rem;
 }
@@ -148,4 +170,8 @@ header {
     font-size: 1.272rem;
     font-family: sans-serif;
     text-transform: uppercase;
+}
+
+.details {
+    margin-bottom : 1rem;
 }

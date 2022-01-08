@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('./burgers.png') #FEE72C;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-position-y: 15rem;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-family:'Staatliches';
+    text-align: center;
+    min-height: 100vh;
+}
+
+button  {
+    padding: .5rem 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navlink{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    font-size : 1.618rem;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+
+}
+
+.navlink:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    height: 100%;
+    
+}
+.hero {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3.33rem;
+}
+h3{
+    font-size: 2.058rem;
+}
+
+
+.hero-half {
+    padding: 4rem ;
+    background-color: #FEE72C;
+    width: 100vw;
+}
+
+.hero H2 {
+    margin-top: 4rem;
+    font-size: 2.058rem;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 1.272rem;
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+button.main {
+    background: black;
+    color: white;
+    font-size: 1.272rem;
+}
+
+button.main:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    height: 3.330rem;
+
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 4rem;
+
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex :1
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    color: white;
+    padding: 3rem;
+    width: 33vw;
+}
+.price{
+    font-size: 1.618rem;
+}
+
+.ingredients {
+    font-size: 1.272rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
